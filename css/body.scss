@@ -1,0 +1,33 @@
+
+.stories{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 300px;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+  }
+  
+  .pmag {
+    background-color: lightgray;
+  }
+  
+  .magsection {
+    @extend .pmag ;
+    border-width: 3px;
+
+  }
+
+
+$textcolor: rgb(82, 82, 82);
+$textsize: 16px;
+
+.colabp{
+    font-size: $textsize;
+    color: $textcolor;
+}
+

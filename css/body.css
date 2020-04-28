@@ -1,0 +1,31 @@
+.stories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 300px;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+}
+
+.pmag, .magsection {
+  background-color: lightgray;
+}
+
+.magsection {
+  border-width: 3px;
+}
+
+.colabp {
+  font-size: 16px;
+  color: #525252;
+}
+/*# sourceMappingURL=body.css.map */
